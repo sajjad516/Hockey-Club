@@ -36,7 +36,7 @@
 <body class="manrope-font">
     <header class="container mx-auto">
         <!-- nav section -->
-        <nav>
+        <nav class="mt-2">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -68,7 +68,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
+                <div class="navbar-end mr-2">
                     <div class="sm:hidden lg:block">
                         <button class="btn hover:bg-transparent hover:text-red-800 btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -83,6 +83,21 @@
             </div>
         </nav>
         <!-- banner section -->
+        <div class="">
+            <div class="carousel sm:flex-col sm:gap-4 lg:relative sm:px-4 lg:h-[550px] sm:my-6 lg:my-12 w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div class="sm:inline-block lg:absolute lg:w-[510px] space-y-1 bg-primary_color lg:right-0 lg:bottom-0 lg:mr-10 lg:mb-8 rounded-lg p-7">
+                    <h4 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h4>
+                    <p class="text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
